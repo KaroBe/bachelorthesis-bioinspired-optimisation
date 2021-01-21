@@ -9,7 +9,7 @@ Ant Colony Optimisation (ACO) - Ant Colony System [3]
 
 Firefly Algorithm (FA) - Discrete Firefly Algorithm [4]
 
-The [code](bachelorthesis-bioinspired-optimisation/code) is licensed unter [MIT license](bachelorthesis-bioinspired-optimisation/LICENSE).
+The code is licensed unter [MIT license](bachelorthesis-bioinspired-optimisation/LICENSE).
 
 ## Use
 
