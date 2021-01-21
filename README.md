@@ -1,7 +1,7 @@
 # Bio-Inspired Algorithms for Combinatorial Optimisation Problems
 ## Metaheuristic Characteristics in Ant Colony Optimisation, Artificial Bee Colony and Firefly Algorithm 
 
-Implememtation and testing of three bio-inspired metaheuristics for the travelling salesperson problem:
+In this thesis presented for the Bachelors degree, three bio-inspired metaheuristics for the travelling salesperson problem were implemented and tested:
 
 Artificial Bee Colony (ABC) - Combinatorial Artificial Bee Colony [1,2]
 
@@ -9,21 +9,23 @@ Ant Colony Optimisation (ACO) - Ant Colony System [3]
 
 Firefly Algorithm (FA) - Discrete Firefly Algorithm [4]
 
-The thesis paper, implementation and test data are provided in this repo.
+The [code](bachelorthesis-bioinspired-optimisation/code) is licensed unter [MIT license](bachelorthesis-bioinspired-optimisation/LICENSE).
 
 ## Use
 
-Implememtation in ***Python 3***
+Implememtation in ***Python 3***.
 
 Code works with .tsp files with ```EDGE_WEIGHT_TYPE: EUC_2D``` (Weights are Euclidean distances in 2-D) and (immplicit) ```NODECOORDTYPE: TWOD_COORDS``` (Nodes are specified by coordinates in 2-D) for which .opt.tour file is provided.
 
 (a number of instances from the TSPLIB http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/ are included, as well as small "test10" instance)
 
+The [tsplib95 library](https://github.com/rhgrant10/tsplib95) for python is used for handling .tsp and .opt.tour files (```pip install tsplib95```).
+
 You may adjust:
 - algorithm parameters in the *_tests.py files
 - output settings in the run() function in the *_optimisation.py files
 
-Run ```python *_tests.py```
+Run ```python *_tests.py```.
 
 ## Output Settings
 
@@ -41,10 +43,9 @@ Tour Coordinate System view may produce mixed results depending on tsp instance 
 
 ## References
 
-All sources used for the thesis are collected in bachelorthesis-bioinspired-optimisation/bibliography.bib.
+All sources used for the thesis are provided [as .bib file](bachelorthesis-bioinspired-optimisation/bibliography.bib)
 
-### Artificial Bee Colony - Combinatorial Artificial Bee Colony 
-
+### Artificial Bee Colony
 [1] D. Karaboga and B. Gorkemli, “A combinatorial Artificial Bee Colony algorithm for traveling salesman problem,” 2011 International Symposium on Innovations in Intelligent Systems and Applications, pp. 50–53, 2011.
 
 [2] D. Karaboga and B. Gorkemli, “Solving Traveling Salesman Problem by Using Combinatorial Artificial Bee Colony Algorithms,” International Journal on Artificial Intelligence Tools, vol. 28, no. 01, Art. no. 01, 2019, doi: 10.1142/S0218213019500040.
