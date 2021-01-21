@@ -9,7 +9,11 @@ Ant Colony Optimisation (ACO) - Ant Colony System [3]
 
 Firefly Algorithm (FA) - Discrete Firefly Algorithm [4]
 
+The thesis paper, implementation and test data are provided in this repo.
+
 ## Use
+
+Implememtation in ***Python 3***
 
 Code works with .tsp files with ```EDGE_WEIGHT_TYPE: EUC_2D``` (Weights are Euclidean distances in 2-D) and (immplicit) ```NODECOORDTYPE: TWOD_COORDS``` (Nodes are specified by coordinates in 2-D) for which .opt.tour file is provided.
 
@@ -19,7 +23,7 @@ You may adjust:
 - algorithm parameters in the *_tests.py files
 - output settings in the run() function in the *_optimisation.py files
 
-```python abc_tests.py```
+Run ```python *_tests.py```
 
 ## Output Settings
 
@@ -36,6 +40,8 @@ Tour Coordinate System view may produce mixed results depending on tsp instance 
 ```print_result_stats=True``` - The final results will be printed in quality development graph view.
 
 ## References
+
+All sources used for the thesis are collected in bachelorthesis-bioinspired-optimisation/bibliography.bib.
 
 ### Artificial Bee Colony - Combinatorial Artificial Bee Colony 
 
