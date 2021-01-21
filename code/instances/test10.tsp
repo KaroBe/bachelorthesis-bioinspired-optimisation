@@ -1,0 +1,17 @@
+NAME : test10
+COMMENT : first 10 of the eil51 - 51-city problem (Christofides/Eilon)
+TYPE : TSP
+DIMENSION : 10
+EDGE_WEIGHT_TYPE : EUC_2D
+NODE_COORD_SECTION
+1 37 52
+2 49 49
+3 52 64
+4 20 26
+5 40 30
+6 21 47
+7 17 63
+8 31 62
+9 52 33
+10 51 21
+EOF

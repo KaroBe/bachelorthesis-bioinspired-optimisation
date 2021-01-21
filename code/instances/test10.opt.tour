@@ -1,0 +1,17 @@
+NAME : test10
+COMMENT : Optimal Tour for test10
+TYPE : TOUR
+DIMENSION : 10
+TOUR_SECTION
+7
+8
+1
+3
+2
+9
+10
+5
+4
+6
+-1
+EOF
