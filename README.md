@@ -9,7 +9,7 @@ Ant Colony Optimisation (ACO) - Ant Colony System [3]
 
 Firefly Algorithm (FA) - Discrete Firefly Algorithm [4]
 
-The code is licensed unter [MIT license](bachelorthesis-bioinspired-optimisation/LICENSE).
+The code is licensed unter [MIT license](LICENSE).
 
 ## Use
 
@@ -43,7 +43,7 @@ Tour Coordinate System view may produce mixed results depending on tsp instance 
 
 ## References
 
-All sources used for the thesis are provided [as .bib file](bachelorthesis-bioinspired-optimisation/bibliography.bib)
+All sources used for the thesis are provided [as .bib file](bibliography.bib)
 
 ### Artificial Bee Colony
 [1] D. Karaboga and B. Gorkemli, “A combinatorial Artificial Bee Colony algorithm for traveling salesman problem,” 2011 International Symposium on Innovations in Intelligent Systems and Applications, pp. 50–53, 2011.
